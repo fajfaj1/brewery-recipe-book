@@ -4,6 +4,7 @@ You can also use a simple **node.js** script to include your own drinks, and edi
 
 ## Preview
 Here's the default one looks in the game:
+
 ![](./showcase.gif)
 
 ## Default book
@@ -17,3 +18,13 @@ Due to it's length, you have to use it in a command block (`/give @s minecraft:c
 > **Note:** I have encountered situations pasting such a big command resulted in a kick from the server. If this happens to you, you can obtain it on singleplayer and save to the saved hotbars (`c + 1-9`) and then grab it from the creative menu or press `x + 1-9` in the actual server.
 
 ## Using generator
+1. Download [generator.zip](./generator.zip)
+2. Unzip the folder
+3. Install dependencies `npm i`
+4. Modify `items.js` to change the drinks list
+5. Generate with `npm run gen`
+The command will be saved to clipboard
+
+## Minecraft Brewery plugin
+
+I am not the creator, nor do I have any rights to the [Minecraft Brewery plugin](https://github.com/DieReicheErethons/Brewery). This is just a small, unofficial tool allowing you to view the recipes in-game.
