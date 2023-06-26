@@ -7,7 +7,7 @@
     "generate": "node index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache 2.0",
   "dependencies": {
     "clipboardy": "^3.0.0"
   }
