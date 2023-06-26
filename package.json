@@ -1,0 +1,14 @@
+{
+  "name": "booker",
+  "version": "1.0.0",
+  "description": "Generate recipe books for Brewery plugin",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^3.0.0"
+  }
+}
