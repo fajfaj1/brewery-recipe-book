@@ -4,7 +4,7 @@
   "description": "Generate recipe books for Brewery plugin",
   "main": "index.js",
   "scripts": {
-    "generate": "node index.js"
+    "gen": "node index.js"
   },
   "author": "",
   "license": "Apache 2.0",

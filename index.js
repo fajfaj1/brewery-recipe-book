@@ -1,9 +1,17 @@
-const items = require('./items.json')
-try {
-    generate()
-} catch (e) {
-    console.log(`An error occured:\n ${e}`)
-}
+const items = require('./items.js')
+
+import('clipboardy').then(async clipboardy => {
+    try {
+        const clipboard = clipboardy.default
+        console.log('Generating command...')
+        const command = generate()
+        console.log('Command generated!')
+        clipboard.writeSync(command)
+        console.log('Command copied to clipboard!')
+    } catch (e) {
+        console.log(`An error occured:\n ${e}`)
+    }
+})  
 
 function generate() {
     const listPointer = '?'
@@ -35,7 +43,7 @@ function generate() {
     const itemList = Object.values(items)
     itemList.forEach((item, index) => {
         const pageNum = index + 3 + 1
-        console.log(`${index} + 3 = ${pageNum}`)
+
         const value = [
             {color: item.color, text: `${listPointer} `, bold: false},
             {
@@ -99,10 +107,9 @@ function generate() {
             recipeText = recipeText.replaceAll(`"%${key}%"`, value)
         })
         
-        
-        console.log(recipeText)
         pages.push(recipeText)
     })
     // pages = pages.slice(1,2)
     const commandWithPages = baseCommand.replace('%pages%', JSON.stringify(pages))
+    return commandWithPages
 }

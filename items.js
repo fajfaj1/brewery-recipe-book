@@ -1,4 +1,4 @@
-export const items = [
+module.exports = [
     {
         "name": "Beer",
         "ingredients": "6 Wheat",

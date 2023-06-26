@@ -1,1 +1,0 @@
-/give @s minecraft:written_book{title:"Ksi±¿ka z przepisami", author:"123fajfaj123", pages:['["Poradnik alkoholika w minecrafcie!"]']}
