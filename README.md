@@ -5,7 +5,7 @@ A command for a completely custom minecraft recipe book for the [Minecraft Brewe
 You can also download a Javascript generator where you can customize all the recipes.
 
 ## Preview
-Here's the default one looks in the game:
+Here's how the default one looks in-game:
 
 ![](./showcase.gif)
 
