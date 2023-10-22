@@ -1,6 +1,8 @@
 # Brewery recipe book generator
-Obtain a custom recipe book for the [Minecraft Brewery plugin](https://github.com/DieReicheErethons/Brewery).
-You can also use a simple **node.js** script to include your own drinks, and edit the default ones.
+A command for a completely custom minecraft recipe book for the [Minecraft Brewery plugin](https://github.com/DieReicheErethons/Brewery).
+
+### Want to add your own custom drinks?
+You can also download a Javascript generator where you can customize all the recipes.
 
 ## Preview
 Here's the default one looks in the game:
