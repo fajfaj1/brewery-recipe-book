@@ -20,10 +20,11 @@ Due to it's length, you have to use it in a command block (`/give @s minecraft:c
 ## Using generator
 1. Download [generator.zip](./generator.zip)
 2. Unzip the folder
-3. Install dependencies `npm i`
+3. Install dependencies `npm i` 
 4. Modify `items.js` to change the drinks list
 5. Generate with `npm run gen`
 The command will be saved to clipboard
+> **Tip:** In order to run this script you wil need [nodejs](https://nodejs.org/en) installed on your machine.
 
 ## Minecraft Brewery plugin
 
